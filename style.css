@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    width: full;
+    height: auto;
+    background: #7f2892;
+    padding: 32px 0px;
+}
+
+.title{
+    color: white;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+}

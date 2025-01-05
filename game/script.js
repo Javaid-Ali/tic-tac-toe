@@ -72,9 +72,11 @@ function playerTurn(event){
 
     if(chance === 'X'){
         event.target.style.backgroundColor = '#ffcccc';
+        event.target.style.border = 'none';
         chance = 'O'
     } else {
         event.target.style.backgroundColor = '#cce5ff';
+        event.target.style.border = 'none';
         chance = 'X'
     }
 
@@ -86,6 +88,7 @@ function resetGame(){
         btn.textContent = '';
         btn.disabled = false;
         btn.style.backgroundColor = '';
+        btn.style.border = '';
     })
 
     chance = 'X';
